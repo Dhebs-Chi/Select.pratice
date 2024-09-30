@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>Fun</span>
+    <div id="always">It is always fun</div>
+
+    <p>You love games</p>
+    <div id="smart">Games makes you smart</div>
+
+    <p>All games are installed</p>
+    <div id="out" >Try it out</div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('p').css('color','blue');
+            $('span').css('color','yellow');
+            $('#out').css('color','red');
+            $('#smart').css('color','green');
+            $('span').css('background-color','black');
+            $('p').css('background-color','grey');
+            $('#always').css('background-color','purple');
+
+        })
+    </script>
+</body>
+</html>
